@@ -213,7 +213,7 @@ footer svg:hover > path {
   .ios {
     margin: 0;
   }
-  #sec2, #sec1 > *:not(#subsect) {
+  #sec1 > *:not(#subsect) #sec2 > *:not(#devices) {
     width: 50%;
   }
   #sec1 {
@@ -239,7 +239,7 @@ footer svg:hover > path {
     margin: 0;
   }
   #devices > img {
-    width: 60%;
+    width: 70%;
   }
   #sec3 > ul {
     flex-direction: row;
