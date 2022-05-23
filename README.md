@@ -25,7 +25,7 @@ Users should be able to:
 
 - Solution URL: [Solution on Frontend Mentor](#)
 - Live Site URL: [Preview Solution](https://thisguyisunknown.github.io/clipboard-landing-page-challenge)
-- How this looks on different devices?: [Click Here](#)
+- How this looks on different devices?: [Click Here](https://ui.dev/amiresponsive?url=https://thisguyisunknown.github.io/clipboard-landing-page-challenge/)
 
 ## My process
 
