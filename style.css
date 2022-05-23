@@ -228,7 +228,7 @@ footer svg:hover > path {
     margin: 0 100px 0 0;
     text-align: left;
   }
-  #subsect > */*, #sec3 ul > */ {
+  #subsect > *, #sec3 ul > * {
     flex-basis: 100%;
   }
   #subsect img {
@@ -237,7 +237,12 @@ footer svg:hover > path {
   #subsect ul {
     margin: 0;
   }
-  #sec3 > ul, #testimonials {
+  #sec3 > ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  #testimonials {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
