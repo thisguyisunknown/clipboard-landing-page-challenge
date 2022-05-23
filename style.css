@@ -252,7 +252,7 @@ footer svg:hover > path {
   #sec3 > ul {
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   #sec3 ul > * {
     flex: 0 0 350px;
