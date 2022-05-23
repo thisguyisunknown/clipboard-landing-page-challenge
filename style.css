@@ -91,7 +91,7 @@ section {
   margin: 25px 0 60px 0;
   line-height: 1.5;
 }
-.img > img {
+#computer > img, #devices > img {
   width: 100%;
 }
 #subsect > ul {
@@ -236,6 +236,9 @@ footer svg:hover > path {
   }
   #subsect ul {
     margin: 0;
+  }
+  #devices > img {
+    width: 60%;
   }
   #sec3 > ul {
     flex-direction: row;
