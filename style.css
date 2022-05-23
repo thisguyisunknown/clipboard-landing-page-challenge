@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+article {
+  width: 100%;
+  text-align: center;
+}
+.header {
+  background-image: url('./images/bg-header-mobile.png');
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  width: 100%;
+}
+#logo {
+  margin: 100px 0 50px 0;
+}
+h1 {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h2, h3 {
+  color: hsl(210, 10%, 33%);
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 600;
+}
+p:not(.attribution) {
+  font-size: 1.1rem;
+  color: hsl(201, 11%, 66%);
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 400;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta > *:not(button) {
+  width: 90%;
+}
+.cta > p {
+  margin: 20px 0 60px 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 75px 15px 75px;
+  outline: none;
+  border: none;
+  border-radius: 90px;
+  font-size: 1.125rem;
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 600;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+.ios {
+  margin-bottom: 20px;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 0 10px 1px hsla(171, 66%, 44%,.5);
+  border-bottom: 3px solid rgb(31,158,139);
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 0 10px 1px hsla(233, 100%, 69%,.5);
+  border-bottom: 3px solid rgb(46,70,255);
+}
+ul li {
+  list-style: none;
+}
+section {
+  margin: 0 auto;
+  width: 90%;
+}
+#sec1 {
+  margin-top: 150px;
+}
+#sec1 > p {
+  margin: 25px 0 60px 0;
+  line-height: 1.5;
+}
+.img > img {
+  width: 100%;
+}
+#subsect > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 30px 0 0 0;
+}
+#subsect > ul li p {
+  margin: 15px 0 0 0;
+}
+#sec2 {
+  margin-top: 200px;
+}
+#sec2 > p {
+  margin: 25px 0 60px 0;
+  line-height: 1.5;
+}
+#sec3 {
+  margin-top: 100px;
+}
+#sec3 > p {
+  margin: 15px 0 85px 0;
+  line-height: 1.5;
+}
+#sec3 > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 30px 0 0 0;
+
+}
+#sec3 > ul li h3 {
+  margin: 35px 0 20px 0;
+}
+#sec4 {
+  margin-top: 125px;
+  margin-bottom: 150px;
+}
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+#testimonials li > img {
+  width: 130px;
+}
+footer {
+  margin-top: 150px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  background-color: hsl(200,13.5%,93%);
+}
+#footer-logo {
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+#footer-logo > img {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+#links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#links li {
+  display: block;
+}
+footer ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  font-size: 1rem;
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+footer ul li a:hover {
+  color: hsl(171, 66%, 44%);
+}
+#social {
+  margin: 60px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer svg {
+  cursor: pointer;
+}
+footer svg:hover > path {
+  fill: hsl(171, 66%, 44%);
+}
+.attribution {
+  margin: 50px 0 0 0;
+  text-align: center;
+  font-size: .687rem;
+  font-family: 'Bai Jamjuree', Sans-Serif;
+  font-weight: 400;
+  color: hsl(210, 10%, 33%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  cursor: pointer;
+}
+@media (min-width: 769px) {
+  .header {
+  background-image: url('./images/bg-header-desktop.png');
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  button {
+    margin: 0;
+  }
+  .ios {
+    margin: 0;
+  }
+  #sec2, #sec4, #sec1 > *:not(#subsect) {
+    width: 80%;
+  }
+  #sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #subsect {
+    display: flex;
+    gap: 75px;
+    margin: 0 100px 0 0;
+    text-align: left;
+  }
+  #subsect > */*, #sec3 ul > */ {
+    flex-basis: 100%;
+  }
+  #subsect img {
+    transform: translateX(-5%);
+  }
+  #subsect ul {
+    margin: 0;
+  }
+  #sec3 > ul, #testimonials {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  #footer-items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #footer-logo {
+    margin: 0 0 0 50px;
+  }
+  #links {
+    flex-direction: row;
+    column-count: 3;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 70px 0 30px;
+  }
+  #links > li {
+    margin: 0 0 0 48px;
+    width: 20%;
+  }
+  #social {
+    margin: 0 50px 0 0;
+  }
+}
