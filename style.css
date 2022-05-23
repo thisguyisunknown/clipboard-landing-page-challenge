@@ -204,6 +204,9 @@ footer svg:hover > path {
     margin-left: auto;
     width: 40%;
   }
+  #sec3 {
+    width: 80%;
+  }
   .header {
   background-image: url('./images/bg-header-desktop.png');
   }
