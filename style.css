@@ -213,8 +213,8 @@ footer svg:hover > path {
   .ios {
     margin: 0;
   }
-  #sec2, #sec4, #sec1 > *:not(#subsect) {
-    width: 80%;
+  #sec2, #sec1 > *:not(#subsect) {
+    width: 50%;
   }
   #sec1 {
     display: flex;
@@ -225,6 +225,7 @@ footer svg:hover > path {
   #subsect {
     display: flex;
     gap: 75px;
+    align-items: center;
     margin: 0 100px 0 0;
     text-align: left;
   }
@@ -244,6 +245,9 @@ footer svg:hover > path {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+  }
+  #sec4 {
+    width: 80%;
   }
   #testimonials {
     flex-direction: row;
