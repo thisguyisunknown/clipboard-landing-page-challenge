@@ -80,7 +80,7 @@ button {
 ul li {
   list-style: none;
 }
-section {
+section, #sec4 {
   margin: 0 auto;
   width: 90%;
 }
@@ -199,6 +199,11 @@ footer svg:hover > path {
   cursor: pointer;
 }
 @media (min-width: 769px) {
+  .cta > *:not(.btns), #sec1 > *:not(#subsect), #sec2 > *:not(#devices) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+  }
   .header {
   background-image: url('./images/bg-header-desktop.png');
   }
@@ -209,12 +214,10 @@ footer svg:hover > path {
   }
   button {
     margin: 0;
+    padding: 20px 60px 15px 60px;
   }
   .ios {
     margin: 0;
-  }
-  #sec1 > *:not(#subsect) #sec2 > *:not(#devices) {
-    width: 50%;
   }
   #sec1 {
     display: flex;
@@ -226,7 +229,6 @@ footer svg:hover > path {
     display: flex;
     gap: 75px;
     align-items: center;
-    margin: 0 100px 0 0;
     text-align: left;
   }
   #subsect > *, #sec3 ul > * {
@@ -236,10 +238,13 @@ footer svg:hover > path {
     transform: translateX(-5%);
   }
   #subsect ul {
-    margin: 0;
+    margin: 0 20% 0 0;
+  }
+  #sec2 {
+    width: 100%;
   }
   #devices > img {
-    width: 70%;
+    width: 75%;
   }
   #sec3 > ul {
     flex-direction: row;
@@ -268,6 +273,7 @@ footer svg:hover > path {
     flex-wrap: wrap;
     gap: 10px;
     margin: 0 70px 0 30px;
+    text-align: left;
   }
   #links > li {
     margin: 0 0 0 48px;
