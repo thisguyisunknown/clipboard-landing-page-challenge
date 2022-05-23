@@ -202,7 +202,7 @@ footer svg:hover > path {
   .cta > *:not(.btns), #sec1 > *:not(#subsect), #sec2 > *:not(#devices) {
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 40%;
   }
   .header {
   background-image: url('./images/bg-header-desktop.png');
